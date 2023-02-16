@@ -41,6 +41,9 @@
 .p-2 {
   padding: 20px;
 }
+.pt-70 {
+  padding-top: 70px;
+}
 /* margin */
 
 .me-10 {
@@ -214,6 +217,32 @@
   width: 100px;
 }
 
+/* bonus part */
+
+.join-team {
+  background-image: url("../images/join-team.png");
+  height: 250px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+.team-img {
+  background-image: url("../images/gradient1.png");
+  height: 250px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+.Sponspors-container > div > img {
+  filter: grayscale(100%);
+}
+.Sponspors-container > div > img:hover {
+  filter: grayscale(0%);
+}
 /* media query */
 @media screen and (max-width: 576px) {
   .navbar {
@@ -266,5 +295,6 @@
     border: 2px solid gray;
     padding: 10px;
     border-radius: 10px;
+    filter: grayscale(100%);
   }
 }
